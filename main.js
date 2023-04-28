@@ -1,0 +1,9 @@
+constplayerxclass=x
+constplayeroclass=circle
+startGame()
+restartButton.addEventlistener(click,startgame)
+constrestartbutton=document.getElementById('restartbutton')
+functionplaceMark(cell,currentClass)
+    cell.classlist.add(currentClass)
+    functionswapTurns()
+    isplayerOTurn=isplayerOTurn
